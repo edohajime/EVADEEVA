@@ -1,0 +1,326 @@
+﻿/* This file CSS is customized for Eva de Eva*/
+body {
+	line-height: 1.4;
+    font-size: 14px;
+    color: #111111;
+    overflow-x: hidden;
+    background: #fff;
+    position: initial;
+    font-family: 'Quicksand';
+    font-size: 14px;
+}
+
+thead {
+	height: 65px;
+}
+.visible-xs, .visible-sm, .visible-md, .visible-lg {
+    display: none!important;
+}
+.text-right {
+	text-align: right;
+}
+.clear-fix {
+	clear: both;
+}
+.clearfix:before {
+	display: table;
+	content: " ";
+}
+
+.breadcrumbs a {
+	color: #111111;
+	font-size: 14px;
+	text-transform: none;
+}
+.breadcrumbs a:hover {
+    color: #e7813f;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+.breadcrumbs nav {
+    background-color: #f5f5f5;
+    padding: 10px 10px 0 15px;
+}
+.breadcrumbs .card {
+	border-color: #fff;
+}
+
+.padding-rl-40{
+	padding: 0 40px;
+}
+
+.cart {
+	padding: 0;
+}
+.cart .wrapbox-content-cart {
+    max-width: 1170px;
+    margin: 40px auto;
+}
+#cartformpage .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#cartformpage thead tr th {
+    background: #ebebeb;
+    text-align: center;
+    border: 1px solid #ededed;
+    border-top: none;
+    border-bottom: none;
+}
+#cartformpage tbody tr td {
+	border: 1px solid #ededed;
+    padding: 10px;
+}
+
+.cart .table-cart {
+	width: 100%;
+}
+.tableDelete {
+    width: 10%;
+}
+.tableImage {
+    width: 25%;
+}
+.tableName {
+    width: 35%;
+}
+.tablePrice {
+    width: 10%;
+}
+.tableQuantity {
+    width: 10%;
+}
+.tableTotal {
+    width: 10%;
+}
+
+.cart-item-img {
+	max-width: 100px;
+}
+.nameInCart {
+    padding: 0 50px;
+    display: inline-block;
+}
+.nameInCart h3 {
+	color: #111111;
+	font-size: 15px;
+    font-weight: bold;
+}
+.nameInCart .variant-title {
+    font-size: 14px;
+}
+.priceLine span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #222;
+}
+.quantity-partent {
+    display: -o-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.quantity-partent button {
+    border: none;
+    height: 42px;
+    width: 30px;
+    outline: none;
+    background: #f1f1f1;
+}
+.line-item-qty {
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    padding: 10px 0;
+    height: 42px;
+}
+.line-item-total {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.checkout-note {
+    float: left;
+    margin: 30px 0 0 0;
+    width: 100%;
+}
+.checkout-note label {
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    margin: 0 0 20px 0;
+    font-size: 15px;
+}
+#note {
+    outline: none;
+    float: left;
+    border: 1px solid #f1f1f1;
+    padding: 5px;
+}
+
+
+.promotion304 {
+    margin-left: 15px;
+    float: left;
+    max-width: 390px;
+    font-size: 15px;
+}
+.promotion304 ul {
+    padding: 0;
+    list-style-type: none;
+}
+.promotion304 li {
+    float: left;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+.promotion304 i {
+    width: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+#update-cart:hover, #checkout:hover, #checkout{
+    background: #e29481;
+    color: white;
+    border-color: #e29481;
+}
+.cart-buttons button {
+    padding: 13px 35px;
+}
+.btnStyle {
+    border: 1px solid #f1f1f1;
+    padding: 13px 45px;
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    font-size: 15px;
+    transition: opacity 150ms linear, color 150ms linear, background 150ms linear;
+    outline: none;
+    color: white;
+}
+
+.order-infor {
+    margin: 30px 0;
+    font-weight: bold;
+    font-size: 19px;
+}
+.total_price {
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.innerHomeStore {
+	background: #ebebeb;
+    text-align: center;
+    font-size: 22px;
+    padding: 30px;
+    font-weight: bold;
+}
+.innerHomeStore a {
+    text-decoration: underline;
+	color: #111111;
+}
+.innerHomeStore a:hover {
+	color: #e29481;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.padding-rl-40{
+		padding: 0 15px;
+	}
+}
+
+@media (max-width: 767px) {
+	.padding-rl-40{
+		padding: 0 15px;
+	}
+	.visible-xs {
+		display: block!important;
+	}
+	.hidden-xs {
+		display: none!important;
+	}
+	.line-item-container {
+	    margin: 0 0 10px 0;
+		float: left;
+		width: 100%;
+		border-bottom: 1px solid #f1f1f1;
+		padding: 10px 0;
+		position: relative;
+	}
+	#cartformpage tbody tr td.image {
+	    width: 30%;
+		float: left;
+	}
+	.cart-item-img {
+		padding: 0;
+	}
+	.btnDeleteCart {
+	    color: black;
+		font-size: 11px;
+		padding: 5px;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	#cartformpage tbody tr td {
+	    border: none;
+		padding: 0;
+	}
+	#cartformpage tbody tr td.tableName {
+	    float: left;
+		width: 62%;
+		padding: 0 0 0 15px;
+	}
+	.nameInCart {
+		padding: 0;
+	}
+	.nameInCart h3 {
+	    margin: 0;
+		font-size: 13px;
+		font-weight: bold;
+	}
+	.tableName p.variant {
+	    margin: 0;
+	}
+	.tableName p {
+	    margin: 5px 0;
+	}
+	.line-item-total {
+		font-size: 13px;
+	}
+	#cartformpage tbody tr td.qty{
+	    float: left;
+		width: 50%;
+	}
+	.quantity-partent {
+	    justify-content: inherit;
+		margin: 10px 0 0 15px;
+	}
+	
+	
+	#note {
+	    width: 100%;
+		height: 110px;
+	}
+	
+	#checkout {
+		width: 49%;
+		float: left;
+	}
+	.cart-buttons button {
+	    width: 100% !important;
+		margin: 0 0 15px 0 !important;
+		background: black !important;
+		color: white !important;
+	}
+	
+	.innerHomeStore {
+		font-size: 19px;
+	}
+	
+}
