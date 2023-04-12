@@ -1,0 +1,470 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="flexbox">
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+		<title>Eva de Eva - Payment</title>
+		<meta content="" name="description">
+		<meta content="" name="keywords">
+
+		<!-- Favicons -->
+		<link href="assets/img/favicon.png" rel="icon">
+		<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+		<!-- Vendor CSS Files -->
+		<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+		<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+		<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+		<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+		<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+		<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+		<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+		<!-- FontAwesome Icon File -->
+		<link href="assets/css/all.min.css" rel="stylesheet">
+		
+		<!-- Template Main CSS File -->
+		<link href="assets/css/style.css" rel="stylesheet">
+		
+		<!-- Customize CSS File-->
+		<link href="assets/css/mystyle.css" rel="stylesheet">
+		<link href="assets/css/style-payment.css" rel="stylesheet">
+		
+		<!-- Generate HTML Element JS File -->
+		<script language="javascript" src="assets/js/generate.js"></script>
+
+		<!-- =======================================================
+		* Template Name: Anyar - v4.8.0
+		* Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
+		* Author: BootstrapMade.com
+		* License: https://bootstrapmade.com/license/
+		======================================================== -->
+	</head>
+
+	<body>
+
+		<!-- Header -->
+		<!-- ... -->
+		<!-- End header -->
+		
+		
+
+		<div class="banner">
+			<div class="wrap">
+				<a href="#" class="logo">
+					<h1 class="logo-text">Eva De Eva</h1>
+				</a>
+			</div>
+		</div>
+		
+		<button class="order-summary-toggle order-summary-toggle-hide">
+			<div class="wrap">
+				<div class="order-summary-toggle-inner">
+					<div class="order-summary-toggle-icon-wrapper">
+						<i class="fa-solid fa-cart-shopping order-summary-toggle-icon"></i>
+					</div>
+					<div class="order-summary-toggle-text order-summary-toggle-text-show">
+						<span>Hiển thị thông tin đơn hàng</span>
+						<i class="fa-solid fa-chevron-down order-summary-toggle-dropdown"></i>
+					</div>
+					<div class="order-summary-toggle-text order-summary-toggle-text-hide">
+						<span>Ẩn thông tin đơn hàng</span>
+						<i class="fa-solid fa-angle-up order-summary-toggle-dropdown"></i>
+					</div>
+					<div class="order-summary-toggle-total-recap" data-checkout-payment-due-target="219900000">
+						<span class="total-recap-final-price">2,199,000đ</span>
+					</div>
+				</div>
+			</div>
+		</button>
+		
+		<div class="content content-second">
+			<div class="wrap">
+				<div class="sidebar sidebar-second">
+					<div class="sidebar-content">
+						<div class="order-summary order-summary-is-expanded">
+							<div class="order-summary-sections">
+								<div class="order-summary-section order-summary-section-discount" data-order-summary-section="discount">
+									<form id="form_discount_add" accept-charset="UTF-8" method="post">
+										<input name="utf8" type="hidden" value="✓">
+										<div class="fieldset">
+											<div class="field  ">
+												<div class="field-input-btn-wrapper">
+													<div class="field-input-wrapper">
+														<label class="field-label" for="discount.code">Mã giảm giá</label>
+														<input placeholder="Mã giảm giá" class="field-input" data-discount-field="true" autocomplete="false" autocapitalize="off" spellcheck="false" size="30" type="text" id="discount.code" name="discount.code" value="">
+													</div>
+													<button type="submit" class="field-input-btn btn btn-default btn-disabled">
+														<span class="btn-content">Sử dụng</span>
+														<i class="btn-spinner icon icon-button-spinner"></i>
+													</button>
+												</div>
+												
+											</div>
+										</div>
+									</form>
+									<span class="coupon-notification">Mã giảm giá không áp dụng đồng thời chương trình khuyến mãi khác</span>
+									<div class="total-line total-line-gift"><p>Sau khi “Đặt hàng” thành công, EVA DE EVA ghi nhận đơn hàng và sẽ liên hệ trực tiếp với quý khách để xác nhận thông tin. Xin chân thành cảm ơn!</p></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="wrap">
+				<div class="sidebar">
+					<div class="sidebar-content">
+						<div class="order-summary order-summary-is-collapsed">
+							<h2 class="visually-hidden">Thông tin đơn hàng</h2>
+							<div class="order-summary-sections">
+								<div class="order-summary-section order-summary-section-product-list" data-order-summary-section="line-items">
+									<table class="product-table">
+										<thead>
+											<tr>
+												<th scope="col"><span class="visually-hidden">Hình ảnh</span></th>
+												<th scope="col"><span class="visually-hidden">Mô tả</span></th>
+												<th scope="col"><span class="visually-hidden">Số lượng</span></th>
+												<th scope="col"><span class="visually-hidden">Giá</span></th>
+											</tr>
+										</thead>
+										<tbody>
+											
+											<tr class="product" data-product-id="1045694146" data-variant-id="1101043577">
+												<td class="product-image">
+													<div class="product-thumbnail">
+														<div class="product-thumbnail-wrapper">
+															<img class="product-thumbnail-image" alt="Đầm sát nách, Dáng thắt eo 23SDKE238F" src="assets/img/product/product-image1.jpg">
+														</div>
+														<span class="product-thumbnail-quantity" aria-hidden="true">1</span>
+													</div>
+												</td>
+												<td class="product-description">
+													<span class="product-description-name order-summary-emphasis">Đầm sát nách, Dáng thắt eo 23SDKE238F</span>
+													
+													<span class="product-description-variant order-summary-small-text">
+														Họa tiết / M / Tơ
+													</span>
+													
+												</td>
+												<td class="product-quantity visually-hidden">1</td>
+												<td class="product-price">
+													<span class="order-summary-emphasis">2,199,000đ</span>
+												</td>
+											</tr>
+											
+										</tbody>
+									</table>
+								</div>
+								
+								<div class="order-summary-section order-summary-section-discount" data-order-summary-section="discount">
+									<form id="form_discount_add" accept-charset="UTF-8" method="post">
+									<input name="utf8" type="hidden" value="✓">
+										<div class="fieldset">
+											<div class="field  ">
+												<div class="field-input-btn-wrapper">
+													<div class="field-input-wrapper">
+														<label class="field-label" for="discount.code">Mã giảm giá</label>
+														<input placeholder="Mã giảm giá" class="field-input" data-discount-field="true" autocomplete="false" autocapitalize="off" spellcheck="false" size="30" type="text" id="discount.code" name="discount.code" value="" fdprocessedid="4nztg">
+													</div>
+													<button type="submit" class="field-input-btn btn btn-default btn-disabled" fdprocessedid="br8yw">
+														<span class="btn-content">Sử dụng</span>
+														<i class="btn-spinner icon icon-button-spinner"></i>
+													</button>
+												</div>
+												
+											</div>
+										</div>
+									</form>
+									<span class="coupon-notification">Mã giảm giá không áp dụng đồng thời chương trình khuyến mãi khác</span>
+								</div>
+									
+								<div class="order-summary-section order-summary-section-total-lines payment-lines" data-order-summary-section="payment-lines">
+									<table class="total-line-table">
+										<thead>
+											<tr>
+												<th scope="col"><span class="visually-hidden">Mô tả</span></th>
+												<th scope="col"><span class="visually-hidden">Giá</span></th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr class="total-line total-line-subtotal">
+												<td class="total-line-name">Tạm tính</td>
+												<td class="total-line-price">
+													<span class="order-summary-emphasis" data-checkout-subtotal-price-target="219900000">
+														2,199,000đ
+													</span>
+												</td>
+											</tr>
+											
+											
+											<tr class="total-line total-line-shipping">
+												<td class="total-line-name">Phí vận chuyển</td>
+												<td class="total-line-price">
+													<span class="order-summary-emphasis" data-checkout-total-shipping-target="0">
+														
+															—
+														
+													</span>
+												</td>
+											</tr>
+											<tr class="total-line">
+												<td class="freeship-notification" colspan="2" style="text-align:left;color:#a73340;">Bạn được miễn phí giao hàng cho hóa đơn trên <strong>699.000đ</strong></td>
+											</tr>
+										</tbody>
+										<tfoot class="total-line-table-footer">
+											<tr class="total-line">
+												<td class="total-line-name payment-due-label">
+													<span class="payment-due-label-total">Tổng cộng</span>
+												</td>
+												<td class="total-line-name payment-due">
+													<span class="payment-due-currency">VND</span>
+													<span class="payment-due-price" data-checkout-payment-due-target="219900000">
+														2,199,000đ
+													</span>
+													<span class="checkout_version" display:none="" data_checkout_version="71">
+													</span>
+												</td>
+											</tr>
+											<tr class="total-line total-line-gift">
+												<td colspan="2"><p>Sau khi “Đặt hàng” thành công, EVA DE EVA ghi nhận đơn hàng và sẽ liên hệ trực tiếp với quý khách để xác nhận thông tin. Xin chân thành cảm ơn!</p></td>
+											</tr>
+										</tfoot>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main">
+					<div class="main-header">
+						<a href="/" class="logo">
+							<h1 class="logo-text">Eva De Eva</h1>
+						</a>
+						<ul class="breadcrumb">
+							<li class="breadcrumb-item">
+								<a href="/cart">Giỏ hàng</a>
+							</li>
+							<li class="breadcrumb-item breadcrumb-item-current">
+								Thông tin giao hàng
+							</li>
+						</ul>
+					</div>
+					<div class="main-content">
+						<div class="step">
+							<div class="step-sections steps-onepage" step="2">
+								<div class="section">
+									<div class="section-header">
+										<h2 class="section-title">Thông tin giao hàng</h2>
+									</div>
+									<div class="section-content section-customer-information no-mb">
+										<p class="section-content-text">
+											Bạn đã có tài khoản?
+											<a href="#">Đăng nhập</a>
+										</p>
+										<div class="fieldset">
+											<div class="field field-show-floating-label">
+												<div class="field-input-wrapper">
+													<label class="field-label" for="billing_address_full_name">Họ và tên</label>
+													<input placeholder="Họ và tên" autocapitalize="off" spellcheck="false" class="field-input" size="30" type="text" id="billing_address_full_name" name="billing_address[full_name]" value="Hà Tuấn Anh" autocomplete="false" fdprocessedid="izhkss">
+												</div>
+											</div>
+											<div class="field field-required field-two-thirds field-show-floating-label">
+												<div class="field-input-wrapper">
+													<label class="field-label" for="checkout_user_email">Email</label>
+													<input autocomplete="false" placeholder="Email" autocapitalize="off" spellcheck="false" class="field-input" size="30" type="email" id="checkout_user_email" name="checkout_user[email]" value="edohajime2000@gmail.com" fdprocessedid="wrtgnn">
+												</div>
+											</div>
+											<div class="field field-required field-third  field-show-floating-label">
+												<div class="field-input-wrapper">
+													<label class="field-label" for="billing_address_phone">Số điện thoại</label>
+													<input autocomplete="false" placeholder="Số điện thoại" autocapitalize="off" spellcheck="false" class="field-input" size="30" maxlength="15" type="tel" id="billing_address_phone" name="billing_address[phone]" value="0983826633" fdprocessedid="rcayhs">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="section-content">
+										<div class="fieldset">
+											<form autocomplete="off" id="form_update_shipping_method" class="field default" accept-charset="UTF-8" method="post">
+												<input name="utf8" type="hidden" value="✓">
+												<div class="content-box mt0">
+															   
+													<div id="form_update_location_customer_shipping" class="order-checkout__loading radio-wrapper content-box-row content-box-row-padding content-box-row-secondary " for="customer_pick_at_location_false">
+														<input name="utf8" type="hidden" value="✓">
+														<div class="order-checkout__loading--box">
+															<div class="order-checkout__loading--circle"></div>  
+														</div>
+													
+														<div class="field field-show-floating-label">
+															<div class="field-input-wrapper">
+																<label class="field-label" for="billing_address_address1">Địa chỉ</label>
+																<input placeholder="Địa chỉ" autocapitalize="off" spellcheck="false" class="field-input" size="30" type="text" id="billing_address_address1" name="billing_address[address1]" value="Bắc Từ Liêm, Hà Nội" fdprocessedid="kg8qlf">
+															</div>
+															
+														</div>
+														
+														<div class="field field-show-floating-label field-third ">
+															<div class="field-input-wrapper field-input-wrapper-select">
+																<label class="field-label" for="customer_shipping_province"> Tỉnh / thành  </label>
+																<select class="field-input" id="customer_shipping_province" name="customer_shipping_province" fdprocessedid="k1r1yb">
+																	<option data-code="null" value="null" selected=""> Chọn tỉnh / thành </option>
+																	<option data-code="HC" value="50">Hồ Chí Minh</option>
+																	<option data-code="HI" value="1">Hà Nội</option>
+																	<option data-code="DA" value="32">Đà Nẵng</option>
+																	<option data-code="LO" value="6">Lào Cai</option>
+																	<option data-code="LD" value="44">Lâm Đồng</option>
+																	<option data-code="DO" value="43">Đắk Nông</option>
+																	<option data-code="DN" value="48">Đồng Nai</option>
+																	<option data-code="DT" value="56">Đồng Tháp</option>
+																</select>
+															</div>
+														</div>
+														<div class="field field-show-floating-label field-third ">
+															<div class="field-input-wrapper field-input-wrapper-select">
+																<label class="field-label" for="customer_shipping_district">Quận / huyện</label>
+																<select class="field-input" id="customer_shipping_district" name="customer_shipping_district" fdprocessedid="zomedb">
+																	<option data-code="null" value="null" selected="">Chọn quận / huyện</option>
+																</select>
+															</div>
+														</div>
+															
+														<div class="field field-show-floating-label field-required  field-third  ">
+															<div class="field-input-wrapper field-input-wrapper-select">
+																<label class="field-label" for="customer_shipping_ward">Phường / xã</label>
+																<select class="field-input" id="customer_shipping_ward" name="customer_shipping_ward" fdprocessedid="6p7af">
+																	<option data-code="null" value="null" selected="">Chọn phường / xã</option>
+																	
+																</select>
+															</div>
+															
+														</div>
+													</div>	
+												</div>
+											</form>
+										</div>
+									</div>
+									<div id="change_pick_location_or_shipping">
+										<div id="section-shipping-rate">
+											<div class="order-checkout__loading--box">
+														<div class="order-checkout__loading--circle"></div>  
+											</div>
+											<div class="section-header">
+												<h2 class="section-title">Phương thức vận chuyển</h2>
+											</div>
+											<div class="section-content">
+												
+												<div class="content-box  blank-slate">
+													<i class="blank-slate-icon icon icon-closed-box "></i>
+													<p>Vui lòng chọn tỉnh / thành để có danh sách phương thức vận chuyển.</p>
+												</div>
+												
+											</div>
+										</div>
+										<div id="section-payment-method" class="section">
+											<div class="order-checkout__loading--box">
+														<div class="order-checkout__loading--circle"></div>  
+											</div>
+											<div class="section-header">
+												<h2 class="section-title">Phương thức thanh toán</h2>
+											</div>
+											<div class="section-content">
+												<div class="content-box">
+													<div class="radio-wrapper content-box-row">
+														<label class="radio-label" for="payment_method_id_1000693919">
+															<div class="radio-input payment-method-checkbox">
+																<input type-id="1" id="payment_method_id_1000693919" class="input-radio" name="payment_method_id" type="radio" value="1000693919">
+															</div>
+															<div class="radio-content-input">
+																<img class="main-img" src="https://hstatic.net/0/0/global/design/seller/image/payment/cod.svg?v=4">
+																<div>
+																	<span class="radio-label-primary">Thanh toán khi giao hàng (COD)</span>
+																</div>
+															</div>
+														</label>
+													</div>
+													<div class="radio-wrapper content-box-row">
+														<label class="radio-label" for="payment_method_id_1003197899">
+															<div class="radio-input payment-method-checkbox">
+																<input type-id="2" id="payment_method_id_1003197899" class="input-radio" name="payment_method_id" type="radio" value="1003197899" checked="">
+															</div>
+															<div class="radio-content-input">
+															<img class="main-img" src="https://hstatic.net/0/0/global/design/seller/image/payment/other.svg?v=4">
+															<div>
+															<span class="radio-label-primary">Chuyển khoản qua ngân hàng</span>
+														
+																</span></div>
+																	</div>
+														</label>
+													</div>
+													<div class="radio-wrapper content-box-row content-box-row-secondary " for="payment_method_id_1003197899">
+														<div class="blank-slate">
+															Ngân hàng: NGÂN HÀNG Á CHÂU (ACB)
+															Tên tài khoản: PHAM THI NHUNG
+															Số tài khoản: 25586187
+															Nội dung: Mã đơn hàng + Số điện thoại KH đặt hàng để nhân viên tra soát nhanh và tránh nhầm lẫn.
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>		
+								</div>
+							</div>
+							<div class="step-footer" id="step-footer-checkout">
+								<form id="form_next_step" accept-charset="UTF-8" method="post">
+									<input name="utf8" type="hidden" value="✓">
+									<button type="submit" class="step-footer-continue-btn btn" fdprocessedid="465bco">
+										<span class="btn-content">Hoàn tất đơn hàng</span>
+										<i class="btn-spinner icon icon-button-spinner"></i>
+									</button>
+								</form>
+								<a class="step-footer-previous-link" href="/cart">
+									Giỏ hàng
+								</a>
+							</div>
+						</div>	
+					</div>
+					<div class="main-footer footer-powered-by">Powered by Haravan</div>
+				</div>
+			</div>
+		</div>
+		<div id="onesignal-bell-container">
+			<div id="em-bell-launcher" style="bottom: 15px; right: 15px; animation: 0.5s ease 0s 8 normal none running shake;">
+				<div style="cursor: pointer;">
+					<img src="assets/img/bell/em-bell-launcher.jpg">
+				</div>
+				<div class="em-bell-launcher-message">
+					<div class="em-bell-launcher-message-body">
+						Đăng kí theo dõi để nhận ưu đãi HOT mới nhất
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ======= Footer ======= -->
+		
+		<!-- End Footer -->
+
+		<div id="preloader"></div>
+		<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+		<!-- Vendor JS Files -->
+		<script src="assets/vendor/aos/aos.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+		<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+		<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+		<script src="assets/vendor/php-email-form/validate.js"></script>
+
+		<!-- Template Main JS File -->
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
