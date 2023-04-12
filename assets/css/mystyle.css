@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
     background: #fff;
     position: initial;
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
     font-size: 14px;
 }
 
@@ -227,6 +227,8 @@ thead {
 .innerHomeStore a:hover {
 	color: #e29481;
 }
+
+
 
 @media (min-width: 768px) and (max-width: 991px){
 	.padding-rl-40{
